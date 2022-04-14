@@ -1,0 +1,54 @@
+.navbar {
+	font-family: 'Indie Flower', cursive;
+	overflow: hidden;
+  	position: fixed;
+  	top: 0;
+  	width: 100%;
+}
+
+.navbar a {
+  	float: left;
+  	display: block;
+  	color: black;
+  	text-align: center;
+  	padding: 16px 26px 16px;
+}
+
+.navbar a:hover {
+  	background: #ddd;
+  	color: #f2f2f2;
+}
+.main {
+  	margin-top: 60px; 
+}
+
+h1, h2 {
+	font-family: 'Rubik Microbe', cursive;
+	text-align: center;
+}
+h3, h4, h5 {
+	font-family: 'Barlow', san-serif;
+}
+p {
+	font-family: 'Grape Nuts', cursive;
+}
+.intro {
+	text-indent: 2em;
+}
+a {
+	font-color: #4F3674;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	background-color: #D6A800;
+	text-decoration: underline;
+}
+a:visited {
+	font-color: red;
+	font-weight: bold;
+}
+.sentence {
+	font-style: italic;
+}
