@@ -9,15 +9,10 @@
 .navbar a {
   	float: left;
   	display: block;
-  	color: #2E5887;
   	text-align: center;
   	padding: 16px 26px 16px;
 }
 
-.navbar a:hover {
-  	background: #7797BA;
-  	color: #EF9175;
-}
 .main {
   	margin-top: 60px;
 	text-align: center; 
@@ -33,6 +28,10 @@ h1, h2 {
 h3, h4, h5 {
 	font-family: 'Barlow', san-serif;
 }
+ul {
+	padding-left:25%;
+	text-align: left;
+}
 img {
 	width: 25%;
 	height: 25%;
@@ -40,22 +39,23 @@ img {
 }
 p {
 	font-family: 'Grape Nuts', cursive;
+	padding: 20px;
 }
 .intro {
 	text-indent: 2em;
 }
 a {
-	color: #4F3674;`
 	font-size: 1.25em;
 	font-weight: bold;
 	text-decoration: none;
 }
 a:hover {
-	background-color: #D6A800;
+	background: #7797BA;
+	color: #EF9175;
 	text-decoration: underline;
 }
 a:visited {
-	color: red;
+	color: #2E5887;
 	font-weight: bold;
 }
 .sentence {
