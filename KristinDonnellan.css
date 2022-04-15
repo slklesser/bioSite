@@ -66,3 +66,25 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 }
+.column1, .columnSeparator, .column2 {
+	float: left;
+	/* height: 400px; */
+	margin: 20px;
+}
+.column1 {
+	width: 40%;
+	background: #EF9175;
+	color: #2E5887;
+}
+.columnSeparator {
+	width:20px;
+}
+.column2 {
+	width:40%;
+	background: #2E5887;
+	color: #EF9175;
+}
+.column1 img, .column2 img {
+	width: 50%;
+	height:50%;
+}
