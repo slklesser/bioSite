@@ -1,5 +1,6 @@
 .navbar {
 	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
 	overflow: hidden;
   	position: fixed;
   	top: 0;
@@ -24,7 +25,7 @@ body {
 	color: #2E5887;
 }
 h1, h2, header {
-	font-family: 'Rubik Microbe', cursive;
+	font-family: 'Permanent Marker', cursive;
 	text-align: center;
 }
 h3, h4, h5 {
@@ -37,10 +38,14 @@ ul {
 img {
 	width: 25%;
 	height: 25%;
-	margin: 0 auto
+	margin: 0 auto;
+	filter: drop-shadow(10px 10px 10px #BA7C77);
+
 }
 p, footer, figcaption {
 	font-family: 'Grape Nuts', cursive;
+	font-weight: bold;
+	font-size: 20px;
 	padding: 20px;
 }
 .intro {
@@ -82,7 +87,7 @@ table {
 	width:20px;
 }
 .column2 {
-	width:40%;
+	width: 40%;
 	background: #2E5887;
 	color: #EF9175;
 }
@@ -90,6 +95,17 @@ table {
 	width: 50%;
 	height:50%;
 }
+.figure {
+	display: inline-block;
+	width: 50%; 
+}
+.figure:nth-child(odd) img {
+    float: right; 
+}
+.figure:nth-child(even) img { 
+    float: left; 
+}
+
 footer {
 	background-color: #BA7C77;
 	position: fixed;
