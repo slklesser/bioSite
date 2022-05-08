@@ -46,7 +46,12 @@ p, footer, figcaption {
 	font-family: 'Grape Nuts', cursive;
 	font-weight: bold;
 	font-size: 20px;
-	padding: 20px;
+}
+p {
+	padding-bottom: 5px;
+}
+.content {
+	text-align: left;
 }
 .intro {
 	text-indent: 2em;
@@ -98,6 +103,7 @@ table {
 .figure {
 	display: inline-block;
 	width: 50%; 
+	padding: 5px;
 }
 .figure:nth-child(odd) img {
     float: right; 
@@ -112,6 +118,7 @@ footer {
 	left: 0;
 	bottom: 0;
 	width: 100%;
+	padding: 5px;
 }
 footer a {
 	text-decoration: none;
@@ -119,4 +126,7 @@ footer a {
 }
 footer a:hover {
 	text-decoration: underline; 
+}
+.info {
+	text-align: center;
 }
