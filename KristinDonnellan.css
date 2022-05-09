@@ -36,8 +36,6 @@ ul {
 	text-align: left;
 }
 img {
-	width: 25%;
-	height: 25%;
 	margin: 0 auto;
 	filter: drop-shadow(10px 10px 10px #BA7C77);
 
@@ -100,18 +98,29 @@ table {
 	width: 50%;
 	height:50%;
 }
-.figure {
+.articles {
 	display: inline-block;
 	width: 50%; 
 	padding: 5px;
 }
-.figure:nth-child(odd) img {
+.articles:nth-child(odd) img {
+	width: 25%;
+	height: 25%;
     float: right; 
 }
-.figure:nth-child(even) img { 
+.articles:nth-child(even) img { 
+	width: 25%;
+	height: 25%;
     float: left; 
 }
-
+figure img {
+	width: 25%;
+	height: 25%;
+}
+.montage img {
+	width: 50%;
+	height: 50%;
+}
 footer {
 	background-color: #BA7C77;
 	position: fixed;
